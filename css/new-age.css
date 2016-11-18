@@ -148,6 +148,7 @@ p {
 }
 header {
   position: center;
+  text-align: center; 
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
@@ -162,7 +163,7 @@ header {
 header .header-content {
   text-align: center;
   padding: 150px 0 50px;
-  position: relative;
+  position: center;
 }
 header .header-content .header-content-inner {
   text-align:center;
@@ -178,9 +179,13 @@ header .header-content .header-content-inner h1 {
   font-size: 30px;
 }
 header .header-content .header-content-inner .list-badges {
+  text-align:center; 
+  position: center; 
   margin-bottom: 25px;
 }
 header .header-content .header-content-inner .list-badges img {
+  text-align: center; 
+  position: center; 
   height: 50px;
   margin-bottom: 25px;
 }
@@ -198,6 +203,7 @@ header .device-container .screen img {
   }
   header .header-content {
     text-align: center;
+    position: center; 
     padding: 0;
     height: 100vh;
   }
