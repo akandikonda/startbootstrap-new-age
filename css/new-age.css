@@ -147,7 +147,7 @@ p {
   }
 }
 header {
-  position: relative;
+  position: center;
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
@@ -187,6 +187,7 @@ header .header-content .header-content-inner .list-badges img {
 header .device-container {
   max-width: 300px;
   margin: 0 auto 100px;
+  position:center; 
 }
 header .device-container .screen img {
   border-radius: 3px;
@@ -196,24 +197,27 @@ header .device-container .screen img {
     min-height: 100%;
   }
   header .header-content {
-    text-align: left;
+    text-align: center;
     padding: 0;
     height: 100vh;
   }
   header .header-content .header-content-inner {
     max-width: none;
     margin: 0;
-    position: absolute;
+    position: center;
+    text-align:center; 
     top: 50%;
     transform: translateY(-50%);
   }
   header .header-content .header-content-inner h1 {
     font-size: 35px;
+    position: center; 
   }
   header .device-container {
     max-width: none;
     max-height: calc(0vh);
     margin: 100px auto 0;
+    position:center; 
   }
 }
 @media (min-width: 992px) {
